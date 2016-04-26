@@ -1,0 +1,337 @@
+[Root]
+Most Recent Package=GuitarMaster
+
+
+[Package|Guitar Master|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Opus\Setup\GuitarMaster
+
+[Package|Guitar Master|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+Lotus=No
+Exchange=No
+Text=No
+Paradox=No
+Excel=No
+Xbase=No
+
+[Package|Guitar Master|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Guitar Master|Files Found]
+
+[Package|Guitar Master|Files Released]
+
+[Package|Guitar Master|Missing Dependency Information]
+
+[Package|Guitar Master|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\COMCT332.OCX=
+
+[Package|Guitar Master|Files Added]
+C:\Opus\Programs\GuitarMaster\chords.dat=
+C:\Opus\Programs\GuitarMaster\chords.mdb=
+C:\Opus\Programs\GuitarMaster\config.dat=
+C:\Opus\Programs\GuitarMaster\Genmidi.dat=
+C:\Opus\Programs\GuitarMaster\Glossary.GID=
+C:\Opus\Programs\GuitarMaster\GLOSSARY.HLP=
+C:\Opus\Programs\GuitarMaster\GuitarMaster.cnt=
+C:\Opus\Programs\GuitarMaster\GuitarMaster.GID=
+
+[Package|Guitar Master|Files Removed]
+
+[Package|Guitar Master|Files In Project]
+C:\Opus\Programs\GuitarMaster\GuitarMaster.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJET35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=Yes
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=Yes
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=Yes
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM\VB5DB.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+C:\WINDOWS\SYSTEM\COMCT332.OCX=Yes
+C:\Opus\Programs\GuitarMaster\GuitarMaster.HLP=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Opus\Programs\GuitarMaster\chords.dat=Yes
+C:\Opus\Programs\GuitarMaster\chords.mdb=Yes
+C:\Opus\Programs\GuitarMaster\config.dat=Yes
+C:\Opus\Programs\GuitarMaster\Genmidi.dat=Yes
+C:\Opus\Programs\GuitarMaster\Glossary.GID=Yes
+C:\Opus\Programs\GuitarMaster\GLOSSARY.HLP=Yes
+C:\Opus\Programs\GuitarMaster\GuitarMaster.cnt=Yes
+C:\Opus\Programs\GuitarMaster\GuitarMaster.GID=Yes
+
+[Package|Guitar Master|Configure Registry Files]
+Applicable=No
+
+[Package|Guitar Master|Configure Remote Servers]
+Applicable=No
+
+[Package|Guitar Master|Install Locations]
+C:\Opus\Programs\GuitarMaster\GuitarMaster.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCT332.OCX=$(WinSysPath)
+C:\Opus\Programs\GuitarMaster\GuitarMaster.HLP=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Opus\Programs\GuitarMaster\chords.dat=$(AppPath)
+C:\Opus\Programs\GuitarMaster\chords.mdb=$(AppPath)
+C:\Opus\Programs\GuitarMaster\config.dat=$(AppPath)
+C:\Opus\Programs\GuitarMaster\Genmidi.dat=$(AppPath)
+C:\Opus\Programs\GuitarMaster\Glossary.GID=$(AppPath)
+C:\Opus\Programs\GuitarMaster\GLOSSARY.HLP=$(AppPath)
+C:\Opus\Programs\GuitarMaster\GuitarMaster.cnt=$(AppPath)
+C:\Opus\Programs\GuitarMaster\GuitarMaster.GID=$(AppPath)
+
+[Package|Guitar Master|Configure Shared Files]
+Applicable=Yes
+C:\Opus\Programs\GuitarMaster\GuitarMaster.exe=No
+C:\Opus\Programs\GuitarMaster\GuitarMaster.HLP=No
+C:\Opus\Programs\GuitarMaster\chords.dat=No
+C:\Opus\Programs\GuitarMaster\chords.mdb=No
+C:\Opus\Programs\GuitarMaster\config.dat=No
+C:\Opus\Programs\GuitarMaster\Genmidi.dat=No
+C:\Opus\Programs\GuitarMaster\Glossary.GID=No
+C:\Opus\Programs\GuitarMaster\GLOSSARY.HLP=No
+C:\Opus\Programs\GuitarMaster\GuitarMaster.cnt=No
+C:\Opus\Programs\GuitarMaster\GuitarMaster.GID=No
+
+[Package|Guitar Master|Distribution]
+Type=single
+Size=
+Title=Guitar Master Pro
+
+[Package|Guitar Master|IconGroups]
+Group0=The Master Collection
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Guitar Master|The Master Collection]
+Icon1=GuitarMaster.HLP
+Title1=Guitar Master Pro Help
+StartIn1=$(AppPath)
+Key1=Icon3
+Icon2=GuitarMaster.exe
+Title2=Guitar Master Pro
+StartIn2=$(AppPath)
+Key2=Icon1
+
+[Package|Guitar Master|Package]
+PackageFolder=C:\Opus\Setup\GuitarMaster
+ProjectFolder=C:\Opus\Programs\GuitarMaster
+ServerSideCab=
+File1=C:\Opus\Setup\GuitarMaster\setup.exe
+File2=C:\Opus\Setup\GuitarMaster\Setup.Lst
+File3=C:\Opus\Setup\GuitarMaster\GuitarMaster.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|GuitarMaster|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Opus\Setup
+
+[Package|GuitarMaster|Configure DAO ISAMs]
+Applicable=Yes
+Lotus=No
+Exchange=No
+Text=No
+Paradox=No
+Excel=No
+Xbase=No
+Jet 2.x=Yes
+
+[Package|GuitarMaster|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|GuitarMaster|Files Found]
+
+[Package|GuitarMaster|Files Released]
+GDI.DLL=
+
+[Package|GuitarMaster|Missing Dependency Information]
+
+[Package|GuitarMaster|Out-of-Date Dependency Information]
+
+[Package|GuitarMaster|Files Added]
+c:\opus\programs\guitarmaster\chords.dat=
+c:\opus\programs\guitarmaster\chords.mdb=
+c:\opus\programs\guitarmaster\config.dat=
+c:\opus\programs\guitarmaster\genmidi.dat=
+c:\opus\programs\guitarmaster\glossary.gid=
+c:\opus\programs\guitarmaster\glossary.hlp=
+c:\opus\programs\guitarmaster\guitarmaster.gid=
+c:\opus\programs\guitarmaster\guitarmaster.cnt=
+
+[Package|GuitarMaster|Files Removed]
+
+[Package|GuitarMaster|Files In Project]
+C:\Opus\Programs\GuitarMaster\GuitarMaster.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJET35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=Yes
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=Yes
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=Yes
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM\VB5DB.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\Opus\Programs\GuitarMaster\GuitarMaster.HLP=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Opus\Programs\GuitarMaster\chords.dat=Yes
+C:\Opus\Programs\GuitarMaster\chords.mdb=Yes
+C:\Opus\Programs\GuitarMaster\config.dat=Yes
+C:\Opus\Programs\GuitarMaster\Genmidi.dat=Yes
+C:\Opus\Programs\GuitarMaster\Glossary.GID=Yes
+C:\Opus\Programs\GuitarMaster\GLOSSARY.HLP=Yes
+C:\Opus\Programs\GuitarMaster\GuitarMaster.GID=Yes
+C:\Opus\Programs\GuitarMaster\GuitarMaster.cnt=Yes
+C:\WINDOWS\SYSTEM\DAO350.dll=Yes
+
+[Package|GuitarMaster|Configure Registry Files]
+Applicable=No
+
+[Package|GuitarMaster|Configure Remote Servers]
+Applicable=No
+
+[Package|GuitarMaster|Install Locations]
+C:\Opus\Programs\GuitarMaster\GuitarMaster.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\Opus\Programs\GuitarMaster\GuitarMaster.HLP=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Opus\Programs\GuitarMaster\chords.dat=$(AppPath)
+C:\Opus\Programs\GuitarMaster\chords.mdb=$(AppPath)
+C:\Opus\Programs\GuitarMaster\config.dat=$(AppPath)
+C:\Opus\Programs\GuitarMaster\Genmidi.dat=$(AppPath)
+C:\Opus\Programs\GuitarMaster\Glossary.GID=$(AppPath)
+C:\Opus\Programs\GuitarMaster\GLOSSARY.HLP=$(AppPath)
+C:\Opus\Programs\GuitarMaster\GuitarMaster.GID=$(AppPath)
+C:\Opus\Programs\GuitarMaster\GuitarMaster.cnt=$(AppPath)
+C:\WINDOWS\SYSTEM\DAO350.dll=$(MSDAOPath)
+
+[Package|GuitarMaster|Configure Shared Files]
+Applicable=Yes
+C:\Opus\Programs\GuitarMaster\GuitarMaster.exe=No
+C:\Opus\Programs\GuitarMaster\GuitarMaster.HLP=No
+C:\Opus\Programs\GuitarMaster\chords.dat=No
+C:\Opus\Programs\GuitarMaster\chords.mdb=No
+C:\Opus\Programs\GuitarMaster\config.dat=No
+C:\Opus\Programs\GuitarMaster\Genmidi.dat=No
+C:\Opus\Programs\GuitarMaster\Glossary.GID=No
+C:\Opus\Programs\GuitarMaster\GLOSSARY.HLP=No
+C:\Opus\Programs\GuitarMaster\GuitarMaster.GID=No
+C:\Opus\Programs\GuitarMaster\GuitarMaster.cnt=No
+
+[Package|GuitarMaster|Distribution]
+Type=single
+Size=
+Title=Guitar Master Pro
+
+[Package|GuitarMaster|Package]
+PackageFolder=C:\Opus\Setup
+ProjectFolder=C:\Opus\Programs\GuitarMaster
+ServerSideCab=
+File1=C:\Opus\Setup\setup.exe
+File2=C:\Opus\Setup\Setup.Lst
+File3=C:\Opus\Setup\GuitarMaster.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|GuitarMaster|IconGroups]
+Group0=The Master Collection
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|GuitarMaster|The Master Collection]
+Icon1=GuitarMaster.exe
+Title1=Guitar Master Pro
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=GuitarMaster.HLP
+Title2=Guitar Master Pro Help
+StartIn2=$(AppPath)
+Key2=Icon3
